@@ -18,8 +18,9 @@ def oxford_comma(array)
     array.join(", ") + ", and " + last_element
 
   end
+  oxford_comma(["kiwi"])
 end
-oxford_comma(["kiwi"])
+
 
 
 
